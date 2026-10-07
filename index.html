@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ARYAN 45 | Creator</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#050505;
+  color:#fff;
+  overflow-x:hidden;
+}
+
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  padding:18px 22px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:rgba(5,5,5,.75);
+  backdrop-filter:blur(15px);
+  z-index:100;
+  border-bottom:1px solid #222;
+}
+
+.logo{
+  font-size:24px;
+  font-weight:900;
+  letter-spacing:2px;
+}
+
+.logo span{
+  color:#00f5ff;
+}
+
+nav a{
+  color:#aaa;
+  text-decoration:none;
+  margin-left:13px;
+  font-size:13px;
+}
+
+nav a:hover{
+  color:#00f5ff;
+}
+
+.hero{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:100px 20px 50px;
+
+  background:
+  radial-gradient(circle at 50% 35%,#004f59 0%,transparent 30%),
+  radial-gradient(circle at 10% 90%,#24104d 0%,transparent 30%),
+  #050505;
+}
+
+.hero small{
+  color:#00f5ff;
+  letter-spacing:4px;
+}
+
+.hero h1{
+  font-size:70px;
+  margin:18px 0;
+  font-weight:900;
+  line-height:.95;
+}
+
+.hero h1 span{
+  color:#00f5ff;
+}
+
+.hero p{
+  color:#aaa;
+  font-size:18px;
+  margin-bottom:30px;
+}
+
+.btn{
+  display:inline-block;
+  padding:14px 25px;
+  margin:5px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:bold;
+  background:#00f5ff;
+  color:#000;
+  transition:.3s;
+}
+
+.btn:hover{
+  transform:scale(1.05);
+}
+
+.btn.dark{
+  background:#151515;
+  color:#fff;
+  border:1px solid #333;
+}
+
+section{
+  padding:90px 20px;
+  text-align:center;
+}
+
+.heading{
+  font-size:38px;
+  margin-bottom:40px;
+}
+
+.heading span{
+  color:#00f5ff;
+}
+
+.about{
+  max-width:700px;
+  margin:auto;
+  color:#aaa;
+  line-height:1.8;
+  font-size:17px;
+}
+
+.cards{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.card{
+  width:280px;
+  padding:32px 20px;
+  background:linear-gradient(145deg,#111,#080808);
+  border:1px solid #222;
+  border-radius:22px;
+  transition:.4s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  border-color:#00f5ff;
+  box-shadow:0 10px 40px #00f5ff20;
+}
+
+.icon{
+  font-size:45px;
+  margin-bottom:18px;
+}
+
+.card h3{
+  margin-bottom:12px;
+}
+
+.card p{
+  color:#888;
+  line-height:1.6;
+}
+
+.social{
+  max-width:600px;
+  margin:auto;
+  padding:35px 20px;
+  border:1px solid #222;
+  border-radius:25px;
+  background:#0d0d0d;
+}
+
+.social p{
+  color:#aaa;
+  margin:15px;
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+  color:#555;
+  border-top:1px solid #151515;
+}
+
+@media(max-width:600px){
+
+  .hero h1{
+    font-size:52px;
+  }
+
+  nav{
+    padding:15px;
+  }
+
+  nav a{
+    font-size:11px;
+    margin-left:7px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">ARYAN<span>45</span></div>
+
+  <div>
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#work">WORK</a>
+    <a href="#contact">CONTACT</a>
+  </div>
+</nav>
+
+
+<!-- HOME -->
+
+<section class="hero" id="home">
+
+  <div>
+
+    <small>WELCOME TO MY WORLD</small>
+
+    <h1>
+      ARYAN<br>
+      <span>45</span>
+    </h1>
+
+    <p>
+      PHOTO EDITOR • VIDEO EDITOR • CREATOR
+    </p>
+
+    <a class="btn" href="#work">
+      EXPLORE MY WORK
+    </a>
+
+    <a class="btn dark"
+       href="https://www.instagram.com/mr_aryan_45_94"
+       target="_blank">
+      INSTAGRAM ↗
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+
+  <h2 class="heading">
+    ABOUT <span>ME</span>
+  </h2>
+
+  <p class="about">
+    Hey! I'm Aryan Nasre — a creative photo editor,
+    video editor and content creator.
+    I love turning simple ideas into something
+    different, creative and eye-catching.
+  </p>
+
+</section>
+
+
+<!-- WORK -->
+
+<section id="work">
+
+  <h2 class="heading">
+    WHAT I <span>DO</span>
+  </h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="icon">📸</div>
+      <h3>PHOTO EDITING</h3>
+      <p>
+        Creative photo edits, effects,
+        retouching and social media designs.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎬</div>
+      <h3>VIDEO EDITING</h3>
+      <p>
+        Reels, Shorts, cinematic edits
+        and creative video content.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">⚡</div>
+      <h3>CREATIVE CONTENT</h3>
+      <p>
+        Unique ideas, thumbnails,
+        posters and digital content.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+  <h2 class="heading">
+    LET'S <span>CONNECT</span>
+  </h2>
+
+  <div class="social">
+
+    <p>📸 Instagram</p>
+
+    <a class="btn"
+       href="https://www.instagram.com/mr_aryan_45_94"
+       target="_blank">
+       @mr_aryan_45_94
+    </a>
+
+    <p>💬 WhatsApp</p>
+
+    <a class="btn"
+       href="https://wa.me/917447459462"
+       target="_blank">
+       CHAT ON WHATSAPP
+    </a>
+
+  </div>
+
+</section>
+
+
+<footer>
+  © 2026 ARYAN 45 • ALL RIGHTS RESERVED
+</footer>
+
+
+<script>
+
+console.log("ARYAN 45 WEBSITE LOADED 🚀");
+
+</script>
+
+</body>
+</html>
